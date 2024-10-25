@@ -249,7 +249,7 @@ The plugin uses adapters to connect to LLMs. Out of the box, the plugin supports
 - OpenAI (`openai`) - Requires an API key
 - xAI (`xai`) - Requires an API key
 
-The plugin utilises objects called Strategies. These are the different ways that a user can interact with the plugin. The _chat_ strategy harnesses a buffer to allow direct conversation with the LLM. The _inline_ strategy allows for output from the LLM to be written directly into a pre-existing Neovim buffer. The _agent_ and _workflow_ strategies are wrappers for the _chat_ strategy, allowing for [tool use](#robot-agents--tools) and [agentic workflows](#world_map-agentic-workflows).
+The plugin utilizes objects called Strategies. These are the different ways that a user can interact with the plugin. The _chat_ strategy harnesses a buffer to allow direct conversation with the LLM. The _inline_ strategy allows for output from the LLM to be written directly into a pre-existing Neovim buffer. The _agent_ and _workflow_ strategies are wrappers for the _chat_ strategy, allowing for [tool use](#robot-agents--tools) and [agentic workflows](#world_map-agentic-workflows).
 
 The plugin allows you to specify adapters for each strategy and also for each [prompt library](#clipboard-prompt-library) entry.
 
